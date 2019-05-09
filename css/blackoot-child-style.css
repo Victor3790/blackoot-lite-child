@@ -1,5 +1,5 @@
 /*
-** Add a red line at the top and change hoover colors.
+** Add a red line at the top and change hoover and link colors.
 ** darkRed: #840606
 ** lightRed: #f24343
 ** lightRed2: #f25151 (even lighter)
@@ -78,4 +78,42 @@
 a,
 a:visited {
 	color: #f25151;
+}
+
+/* #Responsive Menu */
+#navbar #responsiveMenu {
+	display: none;
+	margin: auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+  #navbar #responsiveMenu {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  #navbar #responsiveMenu ul{
+    display: none;
+  }
+
+  #navbar #responsiveMenu ul li{
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    cursor:pointer;
+  }
+
+  #navbar #responsiveMenu #menu{
+    display: block;
+    font-size: 2rem;
+    padding: 25px 0;
+    text-align: left;
+  }
+
+  #navbar #responsiveMenu #menu span{
+    cursor: pointer;
+  }
 }
