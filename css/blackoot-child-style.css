@@ -1,0 +1,76 @@
+/*
+** Add a red line at the top and change hoover colors.
+** darkRed: #840606
+** lightRed: #f24343
+** lightRed2: #f25151 (even lighter)
+*/
+#header{
+  border-bottom: 5px solid #840606;
+}
+
+.postmetadata span i{
+  color: #fff;
+}
+
+.tophead .search-form .search-field:focus {
+	background-color: #840606;
+}
+
+#navbar .current-menu-item,
+#navbar ul li:hover,
+#navbar ul li:focus {
+	border-bottom-color: #840606;
+}
+
+.postmetadata span:hover {
+	background: #840606;
+}
+
+.postmetadata span:hover i {
+	color: #fff;
+}
+
+.postmetadata span:hover,
+.meta-category a:hover,
+.meta-category a:focus,
+.meta-tags a:hover,
+.meta-tags a:focus {
+	background: #840606;
+}
+
+.navbutton a:hover,
+.navbutton a:focus {
+	background-color: #840606;
+	color: #fff;
+}
+
+.paged_nav a:hover,
+.paged_nav a:focus {
+	background: #840606;
+}
+
+#sidebar li * a:hover,
+#sidebar li * a:focus {
+	color: #f25151;
+}
+
+#sidebar > li > * a:hover {
+	color: #f25151;
+	text-decoration: none;
+}
+
+#page-container h1 a,
+#page-container h1 a:visited,
+#page-container h2 a,
+#page-container h2 a:visited,
+#page-container h3 a,
+#page-container h3 a:visited,
+#page-container h4 a,
+#page-container h4 a:visited,
+#page-container h5 a,
+#page-container h5 a:visited,
+#page-container h6 a,
+#page-container h6 a:visited,
+#page-container .entry-title a:hover {
+	color: #f24343;
+}
