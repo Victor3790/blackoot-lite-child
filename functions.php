@@ -30,11 +30,8 @@ function child_blackoot_dropdown_nav_menu() {
 
 				$title = $menu_item->title;
 				$url = $menu_item->url;
-				if ( $menu_item->menu_item_parent && $menu_item->menu_item_parent > 0 ) :
-					$menu_list .= '<li value="' . esc_url( $url ) . '"> &raquo; ' . esc_html( $title ) . '</li>';
-				else :
-					$menu_list .= '<li value="' . esc_url( $url ) . '">' . esc_html( $title ) . '</li>';
-				endif;
+
+        $menu_list .= '<li> <a href="' . esc_url( $url ) . '">' . esc_html( $title ) . '</a></li>';
 
 			endforeach;
 
@@ -48,3 +45,5 @@ function child_blackoot_dropdown_nav_menu() {
 	endif;
 
 }
+
+?>
