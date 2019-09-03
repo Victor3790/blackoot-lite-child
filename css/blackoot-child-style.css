@@ -4,6 +4,21 @@
 ** lightRed: #f24343
 ** lightRed2: #f25151 (even lighter)
 */
+p{
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+#page-title h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 1.70rem;
+  font-weight: bold;
+}
+
 #header{
   border-bottom: 5px solid #840606;
 }
@@ -115,5 +130,13 @@ a:visited {
 
   #navbar #responsiveMenu #menu span{
     cursor: pointer;
+  }
+
+  .article_nav .next, .article_nav .previous{
+    float: none;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-size: 1rem;
   }
 }
