@@ -103,6 +103,35 @@ a:visited {
 
 
 @media only screen and (max-width: 767px) {
+  #main-wrap {
+		width: 100%!important;
+	}
+
+  #main-content {
+    width: 100%!important;
+  }
+
+  #page-container {
+    width: 100%!important;
+  }
+
+  .postmetadata {
+    padding: 10px;
+  }
+  
+  .post-contents {
+    padding: 15px!important;
+  }
+
+  #page-title .container {
+    width: 100%!important;
+  }
+
+  #sidebar-container {
+    float: left;
+    margin-left: 50px!important;
+  }
+
   #navbar #responsiveMenu {
     display: block;
     margin: 20px auto;
@@ -139,4 +168,16 @@ a:visited {
     margin-top: 10%;
     font-size: 1rem;
   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#main-wrap {
+		width: 100%!important;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#main-wrap {
+		width: 100%!important;
+	}
 }
